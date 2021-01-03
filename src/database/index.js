@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/money_manager')
+mongoose.connect('mongodb://localhost/example')
 mongoose.Promise = global.Promise;
 
 module.exports = mongoose;
